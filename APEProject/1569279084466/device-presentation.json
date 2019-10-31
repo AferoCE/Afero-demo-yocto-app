@@ -2,9 +2,9 @@
 	"active": true,
 	"valid": true,
 	"friendlyName": "Default Presentation",
-	"createdTimestamp": 1571256523855,
+	"createdTimestamp": 1571361720988,
 	"deviceProfileId": "",
-	"presentationId": "",
+	"presentationId": "bd23d498-edb5-48d5-ad4c-28bf0ef893a4",
 	"presentationDefinition": {
 		"label": "MyApp",
 		"attributeOptions": {
@@ -20,33 +20,27 @@
 			},
 			"2": {
 				"flags": [],
-				"label": "Doubled",
-				"valueOptions": null
+				"label": "Doubled"
 			},
 			"3": {
 				"flags": [],
-				"label": "To Be Rotated Right",
-				"valueOptions": null
+				"label": "To Be Rotated Right"
 			},
 			"4": {
 				"flags": [],
-				"label": "Rotated Value",
-				"valueOptions": null
+				"label": "Rotated Value"
 			},
 			"5": {
 				"flags": [],
-				"label": "Toggle LED",
-				"valueOptions": null
+				"label": "Toggle LED"
 			},
 			"6": {
 				"flags": [],
-				"label": "Add To Sum",
-				"valueOptions": null
+				"label": "Add To Sum"
 			},
 			"7": {
 				"flags": [],
-				"label": "Current Sum",
-				"valueOptions": null
+				"label": "Current Sum"
 			},
 			"8": {
 				"flags": [],
@@ -70,38 +64,31 @@
 			},
 			"9": {
 				"flags": [],
-				"label": "Log Output",
-				"valueOptions": null
+				"label": "Log Output"
 			},
 			"10": {
 				"flags": [],
-				"label": "String To Reverse",
-				"valueOptions": null
+				"label": "String To Reverse"
 			},
 			"11": {
 				"flags": [],
-				"label": "Reversed",
-				"valueOptions": null
+				"label": "Reversed"
 			},
 			"12": {
 				"flags": [],
-				"label": "Input to Bit Counter",
-				"valueOptions": null
+				"label": "Input to Bit Counter"
 			},
 			"13": {
 				"flags": [],
-				"label": "Number of Set Bits",
-				"valueOptions": null
+				"label": "Number of Set Bits"
 			},
 			"14": {
 				"flags": [],
-				"label": "Rotated Right",
-				"valueOptions": null
+				"label": "Rotated Right"
 			},
 			"15": {
 				"flags": [],
-				"label": "Rotated Left",
-				"valueOptions": null
+				"label": "Rotated Left"
 			}
 		},
 		"gauge": {
@@ -146,6 +133,7 @@
 			},
 			{
 				"controls": [
+					8,
 					11,
 					12
 				],
@@ -361,6 +349,26 @@
 				]
 			},
 			{
+				"attributeMap": {
+					"value": 10
+				},
+				"controlType": "stringControl",
+				"id": 8,
+				"displayRules": [
+					{
+						"match": "*",
+						"apply": {
+							"enabled": true,
+							"viewStyle": "INLINE",
+							"inputType": "DEFAULT"
+						}
+					}
+				],
+				"automationAttributes": [
+					10
+				]
+			},
+			{
 				"id": 9,
 				"controlType": "switch",
 				"attributeMap": {
@@ -414,9 +422,7 @@
 						}
 					}
 				],
-				"automationAttributes": [
-					10
-				]
+				"automationAttributes": null
 			},
 			{
 				"attributeMap": {

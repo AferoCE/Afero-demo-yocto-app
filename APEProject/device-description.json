@@ -8,178 +8,166 @@
 			"attributes": [
 				{
 					"id": 1,
-					"dataType": "SINT16",
 					"semanticType": "GetDoubled",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "0000",
-					"value": "0",
-					"length": 2
+					"dataType": "SINT16",
+					"length": 2,
+					"value": "0"
 				},
 				{
 					"id": 2,
-					"dataType": "SINT32",
 					"semanticType": "Doubled",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 3,
-					"dataType": "SINT32",
 					"semanticType": "GetRotated",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 4,
-					"dataType": "SINT32",
 					"semanticType": "Rotate",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 5,
-					"dataType": "BOOLEAN",
 					"semanticType": "ToggleLED",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00",
-					"value": "false",
-					"length": 1
+					"dataType": "BOOLEAN",
+					"length": 1,
+					"value": "false"
 				},
 				{
 					"id": 6,
-					"dataType": "SINT8",
 					"semanticType": "GetAdded",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00",
-					"value": "0",
-					"length": 1
+					"dataType": "SINT8",
+					"length": 1,
+					"value": "0"
 				},
 				{
 					"id": 7,
-					"dataType": "SINT32",
 					"semanticType": "CurrentSum",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 8,
-					"dataType": "BOOLEAN",
 					"semanticType": "ReadVarLog",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00",
-					"value": "false",
-					"length": 1
+					"dataType": "BOOLEAN",
+					"length": 1,
+					"value": "false"
 				},
 				{
 					"id": 9,
-					"dataType": "UTF8S",
 					"semanticType": "LastLineOfVarLog",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
+					"dataType": "UTF8S",
 					"length": 1536,
 					"value": null
 				},
 				{
 					"id": 10,
-					"dataType": "UTF8S",
 					"semanticType": "GetReversed",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
+					"dataType": "UTF8S",
 					"length": 1536,
 					"value": null
 				},
 				{
 					"id": 11,
-					"dataType": "UTF8S",
 					"semanticType": "Reversed",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
+					"dataType": "UTF8S",
 					"length": 1536,
 					"value": null
 				},
 				{
 					"id": 12,
-					"dataType": "SINT32",
 					"semanticType": "CountBitsOfThis",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 13,
-					"dataType": "SINT8",
 					"semanticType": "NumberOfBits",
 					"operations": [
 						"READ",
 						"WRITE"
 					],
-					"defaultValue": "00",
-					"value": "0",
-					"length": 1
+					"dataType": "SINT8",
+					"length": 1,
+					"value": "0"
 				},
 				{
 					"id": 14,
-					"dataType": "SINT32",
 					"semanticType": "RotatedR",
 					"operations": [
 						"READ"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 15,
-					"dataType": "SINT32",
 					"semanticType": "RotateL",
 					"operations": [
 						"READ"
 					],
-					"defaultValue": "00000000",
-					"value": "0",
-					"length": 4
+					"dataType": "SINT32",
+					"length": 4,
+					"value": "0"
 				},
 				{
 					"id": 2003,
@@ -701,46 +689,42 @@
 				},
 				{
 					"id": 65004,
-					"dataType": "UTF8S",
 					"semanticType": "Connected SSID",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ"
 					],
-					"defaultValue": "20",
 					"value": " ",
 					"length": 33
 				},
 				{
 					"id": 65005,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Bars",
+					"dataType": "SINT8",
 					"operations": [
 						"READ"
 					],
-					"defaultValue": "00",
 					"value": "0",
 					"length": 1
 				},
 				{
 					"id": 65006,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Steady State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ"
 					],
-					"defaultValue": "00",
 					"value": "0",
 					"length": 1
 				},
 				{
 					"id": 65007,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Setup State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"MCU"
 					],
-					"defaultValue": "00",
 					"value": "0",
 					"length": 1
 				},
@@ -756,29 +740,29 @@
 				},
 				{
 					"id": 65009,
-					"dataType": "BYTES",
 					"semanticType": "Wi-Fi SSID List",
+					"dataType": "BYTES",
 					"operations": [
 						"READ",
 						"WRITE",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 2048,
-					"value": null
+					"value": null,
+					"length": 2048
 				},
 				{
 					"id": 65010,
-					"dataType": "BYTES",
 					"semanticType": "Wi-Fi Credentials",
+					"dataType": "BYTES",
 					"operations": [
 						"READ",
 						"WRITE",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 255,
-					"value": null
+					"value": null,
+					"length": 255
 				},
 				{
 					"id": 65012,
@@ -846,381 +830,381 @@
 				},
 				{
 					"id": 65024,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Interface State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65025,
-					"dataType": "BYTES",
 					"semanticType": "Wi-Fi IP Address",
+					"dataType": "BYTES",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65026,
-					"dataType": "SINT32",
 					"semanticType": "Wi-Fi Uptime",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65027,
-					"dataType": "SINT32",
 					"semanticType": "Wi-Fi DL Data Usage",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65028,
-					"dataType": "SINT32",
 					"semanticType": "Wi-Fi UL Data Usage",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65029,
-					"dataType": "BYTES",
 					"semanticType": "Wi-Fi MAC Address",
+					"dataType": "BYTES",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 6,
-					"value": null
+					"value": null,
+					"length": 6
 				},
 				{
 					"id": 65030,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Key Management",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65031,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Group Cipher",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65032,
-					"dataType": "SINT8",
 					"semanticType": "Wi-Fi Pairwise Cipher",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65034,
-					"dataType": "SINT16",
 					"semanticType": "WAN RSRP",
+					"dataType": "SINT16",
 					"operations": [
 						"READ",
 						"MCU"
 					],
-					"length": 2,
-					"value": null
+					"value": null,
+					"length": 2
 				},
 				{
 					"id": 65035,
-					"dataType": "SINT8",
 					"semanticType": "WAN Bars",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65037,
-					"dataType": "SINT8",
 					"semanticType": "WAN Interface State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65038,
-					"dataType": "BYTES",
 					"semanticType": "WAN IP Address",
+					"dataType": "BYTES",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65039,
-					"dataType": "SINT32",
 					"semanticType": "WAN Uptime",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65040,
-					"dataType": "SINT32",
 					"semanticType": "WAN DL Data Usage",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65041,
-					"dataType": "SINT32",
 					"semanticType": "WAN UL Data Usage",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65042,
-					"dataType": "UTF8S",
 					"semanticType": "WAN IMEISV",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 32,
-					"value": null
+					"value": null,
+					"length": 32
 				},
 				{
 					"id": 65043,
-					"dataType": "UTF8S",
 					"semanticType": "WAN IMSI",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 32,
-					"value": null
+					"value": null,
+					"length": 32
 				},
 				{
 					"id": 65044,
-					"dataType": "UTF8S",
 					"semanticType": "WAN ICCID",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 32,
-					"value": null
+					"value": null,
+					"length": 32
 				},
 				{
 					"id": 65045,
-					"dataType": "SINT8",
 					"semanticType": "WAN RAT",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65046,
-					"dataType": "SINT8",
 					"semanticType": "WAN Registration State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65047,
-					"dataType": "SINT8",
 					"semanticType": "WAN PS State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65048,
-					"dataType": "UTF8S",
 					"semanticType": "WAN MCC",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 8,
-					"value": null
+					"value": null,
+					"length": 8
 				},
 				{
 					"id": 65049,
-					"dataType": "UTF8S",
 					"semanticType": "WAN MNC",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 8,
-					"value": null
+					"value": null,
+					"length": 8
 				},
 				{
 					"id": 65050,
-					"dataType": "SINT32",
 					"semanticType": "WAN LAC",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65051,
-					"dataType": "SINT32",
 					"semanticType": "WAN Cell ID",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65052,
-					"dataType": "SINT8",
 					"semanticType": "WAN Roaming State",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65053,
-					"dataType": "UTF8S",
 					"semanticType": "WAN PLMN",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 32,
-					"value": null
+					"value": null,
+					"length": 32
 				},
 				{
 					"id": 65054,
-					"dataType": "UTF8S",
 					"semanticType": "WAN APN",
+					"dataType": "UTF8S",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 100,
-					"value": null
+					"value": null,
+					"length": 100
 				},
 				{
 					"id": 65055,
-					"dataType": "SINT8",
 					"semanticType": "WAN SIM Status",
+					"dataType": "SINT8",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 1,
-					"value": null
+					"value": null,
+					"length": 1
 				},
 				{
 					"id": 65056,
-					"dataType": "SINT32",
 					"semanticType": "WAN DL Bit Rate",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65057,
-					"dataType": "SINT32",
 					"semanticType": "WAN UL Bit Rate",
+					"dataType": "SINT32",
 					"operations": [
 						"READ",
 						"PASS_THROUGH",
 						"MCU"
 					],
-					"length": 4,
-					"value": null
+					"value": null,
+					"length": 4
 				},
 				{
 					"id": 65065,
